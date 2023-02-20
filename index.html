@@ -1,0 +1,42 @@
+<!DOCTYPE HTML5>
+<html>
+	<head>
+		<meta charset = "UTF-8">
+		<style>
+			.comment {
+				text-color: green;
+			}
+			.blue {
+				text-color:blue;
+			}
+		</style>
+	</head>
+	<body>
+		<p>
+			Add these lines of code:
+			<code>
+				<span class="blue">var</span> myBackground = color(<span class="blue">0, 0, 255</span>);<br>
+				background(myBackground);<br>
+				//^Code above is already in the file^<br>
+				//Add the code below<br>
+				noStroke(); //Means "no outline"<br>
+				<br>
+				//Position of the car<br>
+				<span class="blue">var</span> x = <span class="blue">10</span>;<br>
+				<br>
+				//Draw the car's body<br>
+				fill(<span class="blue">255, 0, 0) //Seriously, if you want the car body to be a different color, play around with the values.<br>
+				rect(x, 200, 100, 20);<br> draws a rectangle
+				rect(x + 15, 178, 70, 40);<br>
+				<br>
+				// draw the wheels<br>
+				fill(77, 66, 66);//If you want the car wheels to be a different color, play around with the values.<br>
+				ellipse(x + 25, 221, 24, 24);<br>
+				ellipse(x + 75, 221, 24, 24);<br>
+			</code>
+			<small>
+				You don't really have to copy the code in green.
+			</small>
+		</p>
+	</body>
+</html>
