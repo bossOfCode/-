@@ -4,10 +4,10 @@
 		<meta charset = "UTF-8">
 		<style>
 			.comment {
-				text-color: green;
+				color: green;
 			}
 			.blue {
-				text-color:blue;
+				color:blue;
 			}
 		</style>
 	</head>
@@ -17,25 +17,26 @@
 			<code>
 				<span class="blue">var</span> myBackground = color(<span class="blue">0, 0, 255</span>);<br>
 				background(myBackground);<br>
-				//^Code above is already in the file^<br>
-				//Add the code below<br>
-				noStroke(); //Means "no outline"<br>
+				<span class="comment">//^Code above is already in the file^</span><br>
+				<span class="comment">//Add the code below</span><br>
+				noStroke(); <span class="comment">//Means "no outline"</span><br>
 				<br>
-				//Position of the car<br>
+				<span class="comment">//Position of the car</span><br>
 				<span class="blue">var</span> x = <span class="blue">10</span>;<br>
 				<br>
-				//Draw the car's body<br>
-				fill(<span class="blue">255, 0, 0</span>) //Seriously, if you want the car body to be a different color, play around with the values.<br>
-				rect(x, <span class="blue">200, 100, 20</span>);<br> draws a rectangle
-				rect(x + 15, 178, 70, 40);<br>
+				<span class="comment">//Draw the car's body</span><br>
+				fill(<span class="blue">255, 0, 0</span>) <span class="comment">//Seriously, if you want the car body to be a different color, play around with the values.</span><br>
+				rect(x, <span class="blue">200, 100, 20</span>);<span class="comment">//draws a rectangle</span><br> 
+				rect(x + <span class="blue">15, 178, 70, 40</span>);<br>
 				<br>
 				// draw the wheels<br>
-				fill(77, 66, 66);//If you want the car wheels to be a different color, play around with the values.<br>
-				ellipse(x + 25, 221, 24, 24);<br>
-				ellipse(x + 75, 221, 24, 24);<br>
+				fill(<span class="blue">77, 66, 66</span>);<span class="comment">//If you want the car wheels to be a different color, play around with the values.</span><br>
+				ellipse(x + <span class="blue">221, 24, 24</span>);<span class="comment">//makes a circle</span><br>
+				ellipse(x + <span class="blue">75, 221, 24, 24</span>);<br>
+				<br>
 			</code>
 			<small>
-				You don't really have to copy the code in green.
+				You don't really have to copy the code in <span class="comment">green.</span>
 			</small>
 		</p>
 	</body>
